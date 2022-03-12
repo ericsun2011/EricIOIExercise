@@ -6,6 +6,7 @@ double sphere(double SphereR);
 double cylinder(double CylR, double CylH);
 
 int main() {
+    int menu;
     double CubeSides;
     double CubeVolume;
     double SphereR;
@@ -13,24 +14,38 @@ int main() {
     double CylR;
     double CylH;
     double CylVolume;
+    for(;;){  
+    cout << "Enter a number from 1-4 (1 = cube, 2 = sphere, 3 = cylinder, 4 = quit): ";
+    cin >> menu;
 
+    if (menu == 1) {
     cout << "Enter a size for the sides: ";
     cin >> CubeSides;
     CubeVolume = cubed(CubeSides);
     cout << "Volume for the cube is: " << CubeVolume << endl;
-    
+    }
+    else if (menu == 2) {
     cout << "Enter radius for sphere: ";
     cin >> SphereR;
     SphereVolume = sphere(SphereR);
     cout << "Volume for the sphere is: " << SphereVolume << endl;
+    }
     
+    else if (menu == 3) {
     cout << "Enter radius for cylinder: ";
     cin >> CylR;
     cout << "Enter height for cylinder: ";
     cin >> CylH;
     CylVolume = cylinder(CylR, CylH);
     cout << "Volume for the cylinder is: " << CylVolume << endl;
+    }
     
+    else {
+    cout << "Goodbye Byte.";
+    exit(0);
+    }
+    
+    }
     return 0;
 }
 
