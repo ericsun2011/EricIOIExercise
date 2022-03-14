@@ -5,14 +5,14 @@ using namespace std;
 
 int main() {
 
-float x;
-float y;
+    float x;
+    float y;
 
-cout << "Enter a number: \n\r";
-cin >> x;
-cout << "Enter another number: \n\r";
-cin >> y;
-cout << "Sum of "<< x << " + " << y << " = " << round((x + y) * 100) / 100;
+    cout << "Enter a number: \n\r";
+    cin >> x;
+    cout << "Enter another number: \n\r";
+    cin >> y;
+    cout << "Sum of "<< x << " + " << y << " = " << round((x + y) * 100) / 100;
 
-return 0;
+    return 0;
 }
