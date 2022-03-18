@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 
-    char ASCII;
+    //char ASCII;
     string sentence;
 
     cout << "Enter a sentence: ";
