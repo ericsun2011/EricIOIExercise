@@ -8,10 +8,11 @@ void reversWord(string word);
 int main() {
     string str = "Hello Eric Sun 2011";
 
-    cout << "Reversed string: ";
-    for(int i = str.length() - 1; i >= 0; i--) {
-    cout << str.at(i);
-    }
+    cout << "Enter a string:  ";
+    getline(cin, str);
+
+    reversWord(str);
+    
     cout << endl;
 
     cout << "Words reversed: ";
