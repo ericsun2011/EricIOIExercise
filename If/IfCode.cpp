@@ -17,7 +17,8 @@ int main() {
     int compare1 = str1.compare(str2);
     int compare2;
 
-    if(str1.length() == str2.length()){
+    compare2 = str1.length() - str.length();
+/*    if(str1.length() == str2.length()){
         compare2 = 0;
     }
     else if(str1.length() > str2.length()){
@@ -25,7 +26,7 @@ int main() {
     }
     else {
         compare2 = -1;
-    }
+    }  */
 
     if(compare1 == 0 && compare2 == 0) {
         cout << "0xFF";
