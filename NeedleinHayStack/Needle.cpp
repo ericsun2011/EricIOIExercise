@@ -19,10 +19,6 @@ int main() {
 
     cout << "'Haystack' is found at: " << find << endl;
 
-    find = str.find(".");
-
-    cout << "Period is at: " << find << endl;
-
     str.replace(str.find(str1), str1.length(), "preposition");
 
     cout << str;
