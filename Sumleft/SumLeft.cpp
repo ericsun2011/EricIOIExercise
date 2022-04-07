@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-    int SumLeft = 0;
+    int SumLeft = 0; 
 
 
     for(int i = 1; i < 10; i++) {
