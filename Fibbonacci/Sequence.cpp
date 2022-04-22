@@ -10,16 +10,18 @@ int main()
 
     for (int i = 0; i < n; i++)
     {
-        if(i <= 1){
+        if (i <= 1)
+        {
             z = i;
         }
-        else if(x + y <= n){
+        else if (x + y <= n)
+        {
             z = x + y;
             x = y;
             y = z;
-            
         }
-        else{
+        else
+        {
             break;
         }
         cout << z << " ";
