@@ -15,6 +15,9 @@ int main()
             {
                 c = prime[j];
                 d = i / c;
+                if(c > d){
+                    continue;
+                }
                 for (int k = 0; k <= 14; k++)
                 {
                     if (d == prime[k])
