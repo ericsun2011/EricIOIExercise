@@ -6,11 +6,11 @@ using namespace std;
 void reversWord(string word);
 
 int main() {
-    string str = "Hello Eric Sun 2011";
+    string str = "Hello Eric Sun ";
 
-    cout << "Enter a string:  ";
+    /*cout << "Enter a string:  ";
     getline(cin, str);
-
+*/
     reversWord(str);
     
     cout << endl;

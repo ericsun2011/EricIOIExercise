@@ -17,7 +17,7 @@ int main() {
     int compare1 = str1.compare(str2);
     int compare2;
 
-    compare2 = str1.length() - str.length();
+    compare2 = str1.length() - str2.length();
 /*    if(str1.length() == str2.length()){
         compare2 = 0;
     }
