@@ -6,7 +6,7 @@ void merge(int arr[], int l, int m, int r)
     int right = r - m;
     int *arr1 = new int[left];
     int *arr2 = new int[right];
-    memcpy(arr1, arr + left, left * sizeof(int));
+    memcpy(arr1 ,arr + l, left * sizeof(int));
     memcpy(arr2, arr + m + 1, right * sizeof(int));
     int pointer1 = 0;
     int pointer2 = 0;
